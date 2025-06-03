@@ -2,7 +2,7 @@ import axios from "axios";
 import { PartnerAppAuthProvider } from "./authProvider";
 
 // The URL you're calling (replace with actual SageMaker partner app endpoint)
-const url = "https://app-lffjyae4xrz6.partner-app.us-west-2.sagemaker.aws/clientlib/isAlive/ver";
+const url = "https://app-ABCDEFGHIJKL.partner-app.us-west-2.sagemaker.aws/clientlib/isAlive/ver";
 
 const run = async () => {
   const authProvider = new PartnerAppAuthProvider({appARN: "add your APP ARN here"});
